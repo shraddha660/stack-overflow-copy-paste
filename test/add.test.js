@@ -7,4 +7,5 @@ test('Adds two integers ', t => {
   const expected = 23 + 3
   const actual = add(number1, number2)
   t.deepEqual(actual, expected)
+  
 })
